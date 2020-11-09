@@ -36,7 +36,7 @@ public class TicketControllerTest {
     @Autowired
     private TestRestTemplate restTemplate;
 
-    private static String baseURL = "http://localhost:8080/ticket/";
+    private static String baseURL = "http://localhost:8083/ticket/";
 
     @Test
     public void a_create() {
